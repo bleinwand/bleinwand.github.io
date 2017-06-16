@@ -26,9 +26,9 @@ title: "About Me"
 ![](gov island headshot2.jpg)
 </div>
 
+<div class="column-left">
 ##Past
 
-<div class="column-left">
 - Non-Degree student at CUNY [Hunter College](http://www.hunter.cuny.edu), [City College](http://www.ccny.cuny.edu), [Lehman College](http://Lehman.cuny.edu), [Queens College](http://www.qc.cuny.edu), [City Tech](http://www.citytech.cuny.edu)
 - Management Consultant at [Oliver Wyman](http://oliverwyman.com)
 - M.P.S. in Applied Statistics at [Cornell University](https://cornell.edu). See [here](https://stat.cornell.edu/news/student-profiles/benjamin-leinwand-statistical-science-mps-and-ugrad-alum) for a(n edited) profile of me from that time
