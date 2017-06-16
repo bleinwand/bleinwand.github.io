@@ -17,15 +17,21 @@ title: "About Me"
 </style>
 
 
-
-<div class="column-left">
 ##Current
+<div class="column-left">
 - Statistics PhD student in the [Department of Statistics and Operations Research](http://stat-or.unc.edu) at the [University of North Carolina at Chapel Hill](http://www.unc.edu)
+</div>
+
+<div class="column-right">
+![](gov island headshot2.jpg)
+</div>
 
 ##Past
+
+<div class="column-left">
 - Non-Degree student at CUNY [Hunter College](http://www.hunter.cuny.edu), [City College](http://www.ccny.cuny.edu), [Lehman College](http://Lehman.cuny.edu), [Queens College](http://www.qc.cuny.edu), [City Tech](http://www.citytech.cuny.edu)
 - Management Consultant at [Oliver Wyman](http://oliverwyman.com)
-- Applied Statistics MPS student in the [Department of Statistical Science](https://stat.cornell.edu/) at [Cornell University](https://cornell.edu). See [here](https://stat.cornell.edu/news/student-profiles/benjamin-leinwand-statistical-science-mps-and-ugrad-alum) for a(n edited) profile of me by the stats department, but stay for the photo where I don Mike Tyson's face tattoo
+- Applied Statistics MPS student in the [Department of Statistical Science](https://stat.cornell.edu/) at [Cornell University](https://cornell.edu). See [here](https://stat.cornell.edu/news/student-profiles/benjamin-leinwand-statistical-science-mps-and-ugrad-alum) for a(n edited) profile of me from that time
 - Double Major in Economics and Statistical Science at [Cornell University](http://cornell.edu) <br />
 <br />
 
@@ -35,9 +41,7 @@ title: "About Me"
  
 </div>
 
-<div class="column-right">
-![](gov island headshot2.jpg)
-</div>
+
 
       
         
