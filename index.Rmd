@@ -20,13 +20,10 @@ title: "About Me"
 ##Current
 <div class="column-left">
 - Statistics PhD student in the [Department of Statistics and Operations Research](http://stat-or.unc.edu) at the [University of North Carolina at Chapel Hill](http://www.unc.edu)
-</div>
 
-<div class="column-right">
-![](gov island headshot2.jpg)
-</div>
 
-<div class="column-left">
+
+
 ##Past
 
 - Non-Degree student at CUNY [Hunter College](http://www.hunter.cuny.edu), [City College](http://www.ccny.cuny.edu), [Lehman College](http://Lehman.cuny.edu), [Queens College](http://www.qc.cuny.edu), [City Tech](http://www.citytech.cuny.edu)
@@ -41,6 +38,10 @@ title: "About Me"
  
 </div>
 
+
+<div class="column-right">
+![](gov island headshot2.jpg)
+</div>
 
 
       
