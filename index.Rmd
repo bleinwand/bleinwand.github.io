@@ -31,8 +31,8 @@ title: "About Me"
 <div class="column-left">
 - Non-Degree student at CUNY [Hunter College](http://www.hunter.cuny.edu), [City College](http://www.ccny.cuny.edu), [Lehman College](http://Lehman.cuny.edu), [Queens College](http://www.qc.cuny.edu), [City Tech](http://www.citytech.cuny.edu)
 - Management Consultant at [Oliver Wyman](http://oliverwyman.com)
-- Applied Statistics MPS student in the [Department of Statistical Science](https://stat.cornell.edu/) at [Cornell University](https://cornell.edu). See [here](https://stat.cornell.edu/news/student-profiles/benjamin-leinwand-statistical-science-mps-and-ugrad-alum) for a(n edited) profile of me from that time
-- Double Major in Economics and Statistical Science at [Cornell University](http://cornell.edu) <br />
+- M.P.S. in Applied Statistics at [Cornell University](https://cornell.edu). See [here](https://stat.cornell.edu/news/student-profiles/benjamin-leinwand-statistical-science-mps-and-ugrad-alum) for a(n edited) profile of me from that time
+- B.A. Double Major in Economics and Statistical Science at [Cornell University](http://cornell.edu) <br />
 <br />
 
  <p> 

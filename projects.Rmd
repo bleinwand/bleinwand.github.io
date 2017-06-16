@@ -21,9 +21,9 @@ library("RColorBrewer")
 library("gplots")
 
 oring = matrix(NA, nrow=100, ncol=200)
-rownames(oring) = seq(from=0, to=.99, by=.01)
+rownames(oring) = seq(from=.99, to=0, by=-.01)
 colnames(oring) = seq(from=0, to=199, by=1) 
-for (i in 2:100){
+for (i in 1:100){
   for (j in 1:200){
     oring[i,j] = as.numeric(colnames(oring)[j])*(as.numeric(rownames(oring)[i])^as.numeric(colnames(oring)[j]))
   }
@@ -33,7 +33,8 @@ labcol = as.numeric(colnames(oring))
 labcol[labcol[1:199]%%10!=0]=NA
 
 labrow = as.numeric(rownames(oring))
-labrow[(10*labrow[1:99])%%1!=0]=NA
+labrow[(10*labrow[1:100])%%1!=0]=NA
+labrow[1]=.99
 
 #Whole map
 heatmap.2(oring, Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"), tracecol=NA, labCol = labcol, labRow = labrow, density.info=c("none"), xlab = "Number of Workers", ylab = "Worker Efficiency", main="Heatmap of Output in O-ring Theory")
@@ -42,7 +43,7 @@ As you can see,the most efficient workers are responsible for the largest deviat
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 #action at the top
-heatmap.2(oring[90:100,], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Output of Most Efficient Workers" )
+heatmap.2(oring[1:11,], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Output of Most Efficient Workers" )
 
 #which.max(oring[100,])
 # at 99 people or 100 people, (the actual value according to wolfram alpha is about 99.4992) - the output gets to 36.6
@@ -53,13 +54,13 @@ These workers seem to benefit from forming small groups, but they face diminishi
 Even those workers with 99% efficiency top out at groups of about 100 workers, as shown below  
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
-plot(0:199, oring[100,], xlab = "Number of Workers", ylab = "Output", title(main = "Output of Workers with 99% efficiency"))
+plot(0:199, oring[1,], xlab = "Number of Workers", ylab = "Output", title(main = "Output of Workers with 99% efficiency"))
 ```
 For the sake of giving the reader greater color, here's a heatmap focusing on those workers with efficiencies below 90%  
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 #action at the low end
-heatmap.2(oring[1:90, 1:50], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, labRow = labrow, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Focus on the bottom 90%")
+heatmap.2(oring[11:100, 1:50], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, labRow = labrow, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Focus on the bottom 90%")
 ```
 
 Where the 99% efficient workers top out at an output of ~37, 89% efficient workers can't even reach 4!  
