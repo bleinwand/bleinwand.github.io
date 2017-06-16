@@ -88,9 +88,9 @@ This is a pretty stupid idea. A clockface packed with too much information, incl
 
 ### Soccer Statistics
 As an undergraduate, I took an independent study course with [Christopher Anderson](https://twitter.com/soccerquant) looking into soccer statistics. Some of this work made it into a few blog posts. Those blog posts are included below, with a shoutout to the wayback machine for proving magic is real  
-https://web.archive.org/web/20120325162151/http://www.soccerbythenumbers.com:80/2012/02/measurement-matters-validating-mls.html  
-https://web.archive.org/web/20120318011645/http://www.soccerbythenumbers.com:80/2012/02/how-efficient-are-player-salaries-in.html  
-https://web.archive.org/web/20110615103349/http://www.soccerbythenumbers.com:80/2011/06/goal-production-in-six-leagues-or-are.html    
-https://web.archive.org/web/20110619040418/http://www.soccerbythenumbers.com:80/2011/06/comparing-competitiveness-of-european.html  
-https://web.archive.org/web/20110722121951/http://www.soccerbythenumbers.com:80/2011/07/too-much-football-is-there-connection.html  
-https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html  
+[Using Castrol Player Ratings To Predict Team Success in MLS](https://web.archive.org/web/20120325162151/http://www.soccerbythenumbers.com:80/2012/02/measurement-matters-validating-mls.html)  
+[How Efficient Are Player Salaries in Major League Soccer?](https://web.archive.org/web/20120318011645/http://www.soccerbythenumbers.com:80/2012/02/how-efficient-are-player-salaries-in.html)  
+[Goal Production In Six Leagues](https://web.archive.org/web/20110615103349/http://www.soccerbythenumbers.com:80/2011/06/goal-production-in-six-leagues-or-are.html)    
+[Comparing the Competitiveness of European Football Leagues](https://web.archive.org/web/20110619040418/http://www.soccerbythenumbers.com:80/2011/06/comparing-competitiveness-of-european.html)  
+[Is There A Connection Between Matches Played and Goals Per Game?](https://web.archive.org/web/20110722121951/http://www.soccerbythenumbers.com:80/2011/07/too-much-football-is-there-connection.html)  
+[The Connection Between League Balance, Goals, and Talent](https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html)  
