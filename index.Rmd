@@ -11,7 +11,7 @@ title: "About Me"
 
 .column-right{
   float: right;
-  width: 40%;
+  width: 45%;
   text-align: right;
 }
 </style>
@@ -36,7 +36,7 @@ title: "About Me"
 </div>
 
 <div class="column-right">
-![](gov island headshot2.jpg){#id .class width=1323.5 height=791px}  
+![](gov island headshot2.jpg)
 </div>
 
       
