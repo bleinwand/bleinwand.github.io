@@ -3,7 +3,7 @@ title: "Projects"
 ---
 ##Some stuff I've spent a little or a lot of time on  <br /> <br />
 
-<div class="bs-example bs-example-tabs">
+
 <ul class="nav nav-tabs">
   <li class="active"><a href="#PenroseTilings" data-toggle="tab">Penrose Tilings</a></li>
   <li><a href="#VisualizingO-RingTheory" data-toggle="tab">Visualizing O-Ring Theory</a></li>
@@ -103,7 +103,7 @@ As an undergraduate, I took an independent study course on soccer statistics wit
 6) [The Connection Between League Balance, Goals, and Talent](https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html)
 </div>
 </div>
-</div>
+
 
 
 
