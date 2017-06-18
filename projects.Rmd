@@ -80,7 +80,7 @@ Whether or not this makes the O-ring theory more or less believable, seeing thes
 <div class="tab-pane fade" id="SymmetryandScale">
 I was bored at training early on in my working days, and the instructor was wearing a houndstooth sweater. Naturally, I started thinking about how to make identical shapes that tile the plane, indirectly inspired by Escher (and directly inspired by a sweater). I asked a friend of mine to create a [program](http://dev.zachsilversmith.com/escher) where manipulating one side of a shape would also move the opposite side. This could be extended a lot further (curves, points, etc.) but even this simplified version could make some cool stuff   
 
-![](rainbow roll.PNG){#id .class width=290 height=290px}\  ![](snaker.PNG){#id .class width=290 height=290px}\  ![](For Kevin.PNG){#id .class width=290 height=290px}
+![](Unicorn.PNG){#id .class width=290 height=290px}\  ![](snaker.PNG){#id .class width=290 height=290px}\  ![](For Kevin.PNG){#id .class width=290 height=290px}
                 
 I took one output from the program (the first image shown below), and played around with it in PowerPoint to see if combining and recombining the image at different scales would turn up anything good <br /> <br /> 
 
