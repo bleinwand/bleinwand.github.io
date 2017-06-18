@@ -1,3 +1,12 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
 /* unvisited link */
 a:link {
     color: cornflowerblue;
@@ -18,3 +27,17 @@ a:active {
     color: cornflowerblue;
 }
 
+
+.bs-example{
+   position: relative;
+   height: calc(100vh - 240px);
+}
+
+.tab-pane{
+   position: absolute;
+   top: 42px;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   overflow:auto;
+}
