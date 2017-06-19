@@ -16,11 +16,12 @@ title: "Projects"
 <div id="myTabContent" class="tab-content">
 <div class="tab-pane fade in active" id="PenroseTilings">
 ![](penrose_in_out.gif){#id .class width=400 height=225px}   ![](triangle bw angle.PNG){#id .class width=467 height=225px}    
-I translated code from [here](http://preshing.com/20110831/penrose-tiling-explained) into R, then tried to make shapes and patterns which continue to intrigue after repeated viewings
+I translated code from [here](http://preshing.com/20110831/penrose-tiling-explained) into R, then tried to make shapes and patterns that continue to intrigue after repeated viewings
 </div>  
 
 <div class="tab-pane fade" id="VisualizingO-RingTheory">
-When I first read about [O-ring theory](https://en.wikipedia.org/wiki/O-ring_theory_of_economic_development), I was impressed with the idea, but unfortunately, I wasn't able to find any good graphical displays of the output from different groups of workers. The following illustrates when workers of a certain efficiency level would benefit from banding together, when they should maintain the current group size, and when they should break into smaller groups  
+When I first read about [O-ring theory](https://en.wikipedia.org/wiki/O-ring_theory_of_economic_development), I was impressed with the idea, but unfortunately, I wasn't able to find any good graphical displays of the output from different groups of workers. The following illustrates when workers of a certain skill level would benefit from banding together, when they should maintain the current group size, and when they should break into smaller groups <sup><a href="#footnote-1" id="note-1" rel="footnote" <sup> 1 </sup> </a> 
+
 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 library("RColorBrewer")
@@ -46,39 +47,48 @@ labrow[1]=.99
 heatmap.2(oring, Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"), tracecol=NA, labCol = labcol, labRow = labrow, density.info=c("none"), xlab = "Number of Workers", ylab = "Worker Efficiency", main="Heatmap of Output in O-ring Theory")
 
 ```
-As you can see,the most efficient workers are responsible for the largest deviations in output, so let's zoom in on those workers  
+As you can see, the highest skill workers are responsible for the largest deviations in output, so let's zoom in on those workers  
                 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 #action at the top
-heatmap.2(oring[1:11,], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Output of Most Efficient Workers" )
+heatmap.2(oring[1:11,], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Output of Highest Skill Workers" )
                 
 #which.max(oring[100,])
 # at 99 people or 100 people, (the actual value according to wolfram alpha is about 99.4992) - the output gets to 36.6
                 
                 
 ```
-These workers seem to benefit from forming small groups, but they face diminishing - and even negative - returns to joining together after achieving a certain group size. 
+These workers seem to benefit from forming small groups, but they face diminishing - and then negative - returns to joining together after achieving a certain group size 
 
-Even those workers with 99% efficiency top out at groups of about 100 workers, as shown below  
+Even those workers with 99% skill level top out at groups of about 100 workers, as shown below  
                 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 plot(0:199, oring[1,], xlab = "Number of Workers", ylab = "Output", title(main = "Output of Workers with 99% efficiency"))
 ```
-For the sake of giving the reader greater color, here's a heatmap focusing on those workers with efficiencies below 90%  
+For the sake of giving the reader greater color, here's a heatmap focusing on those workers with levels below 90%. Note that the color key has a different scale on this heatmap 
                 
 ```{r, echo = FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 #action at the low end
 heatmap.2(oring[11:100, 1:50], Rowv=NA, Colv=NA, col = brewer.pal(11,"RdYlGn"),tracecol=NA, labCol = labcol, labRow = labrow, density.info=c("none"),  xlab = "Number of Workers", ylab = "Worker Efficiency", main = "Focus on the bottom 90%")
 ```
                 
-Where the 99% efficient workers top out at an output of ~37, 89% efficient workers can't even reach 4!  
+Two things immediately jump out:
+
+1) The lower skill workers should form smaller teams
+2) Teams composed of higher skill workers can produce output much more valuable than the output from lower skill workers 
+
+For a simple example, while the 99% workers can create output of ~37 value using a team of 100 people, the  89% workers shouldn't be in teams greater than 9 people, and their output's value tops out at ~3.
 <br />  
-Whether or not this makes the O-ring theory more or less believable, seeing these results should give you a better intuition about the model's claims   
+
+This only displays one side of the theory, focusing on what workers can produce, while ignoring worker distributions, how firms should operate in this environment (though the heatmap does assume perfect skill matching), and the broader implications of this model. Whether or not these illustrations makes the O-ring theory more believable, seeing these results should give you a better intuition about the model's claims.
+
+<div class="footnotes"><hr /><ol><li id="footnote-1" class="footnote" style="font-size:80%; padding-top:75px;"><p>This is a simplified version of the theory where Beta is assumed to always equal 1, and perfect skill matching is possible<a href="#note-1" class="footnote-return">&#8617;</a></p></li><!--/#footnote-1.footnote-->
                                 
+</div>
 </div>
 
 <div class="tab-pane fade" id="SymmetryandScale">
-I was bored at training early on in my working days, and the instructor was wearing a houndstooth sweater. Naturally, I started thinking about how to make identical shapes that tile the plane, indirectly inspired by Escher (and directly inspired by a sweater). I asked a friend of mine to create a [program](http://dev.zachsilversmith.com/escher) where manipulating one side of a shape would also move the opposite side. This could be extended a lot further (curves, points, etc.) but even this simplified version could make some cool stuff   
+I was bored at training early on in my working days, and the instructor was wearing a houndstooth sweater. Naturally, I started thinking about how to make identical shapes that tile the plane, indirectly inspired by Escher (and directly inspired by a sweater). I asked a friend of mine to create a [program](http://dev.zachsilversmith.com/escher) where manipulating one side of a shape would also move the opposite side. This could be extended a lot further (curves, points, etc.) but even this simplified version could make some cool images  
 
 ![](Unicorn.PNG){#id .class width=290 height=290px}\  ![](snaker.PNG){#id .class width=290 height=290px}\  ![](For Kevin.PNG){#id .class width=290 height=290px}
                 
@@ -102,8 +112,11 @@ As an undergraduate, I took an independent study course on soccer statistics wit
 5) [Is There A Connection Between Matches Played and Goals Per Game?](https://web.archive.org/web/20110722121951/http://www.soccerbythenumbers.com:80/2011/07/too-much-football-is-there-connection.html)  
 6) [The Connection Between League Balance, Goals, and Talent](https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html)
 </div>
-</div>
 
+
+
+
+</div>
 
 
 
