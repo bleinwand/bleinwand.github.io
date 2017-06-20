@@ -19,10 +19,17 @@ a:active {
 }
 
 
-
+.column-left{
+  float: right;
+  width: 97%;
+  text-align: left;
+}
+@media (min-width: 768px){
 html { font-size: 100%; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; height:100%; padding:0px; }
 body { font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-size: 0.875rem; line-height: 1.6; background: #f7f7f7; word-wrap: break-word; height:100%;  }
 .bl-container, .bl-container-inner1 { width: 100%; max-width: 1080px; position: relative; background: #ffffff;  -webkit-box-shadow: 0 0 15px 2px; -moz-box-shadow: 0 0 15px 2px; box-shadow: 0 0 15px 2px; height: calc(100vh - 61px);  overflow: auto; }
+}
+
 .bl-container-outer { margin: 0; -webkit-box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.17); -moz-box-shadow: 0px 0px 00px rgba(50, 50, 50, 0.17); box-shadow: 0px 0px 0px rgba(50, 50, 50, 0.17); }
 .bl-wrapper { padding: 0px; background: #fff; }
 .bl-content { width: 65.83%; overflow: hidden; }
@@ -34,3 +41,10 @@ body { font-family: 'Open Sans', Helvetica, Arial, sans-serif; font-size: 14px; 
 .bl-home-area-3, .bl-home-area-4 { width: 48.24%; }
 .bl-home-area-4 { margin-left: 3.52%; }
 .page-template-homepage .bl-wrapper { padding-bottom: 0; }
+
+
+
+
+  
+  
+}

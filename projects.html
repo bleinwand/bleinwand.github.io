@@ -228,10 +228,13 @@ Projects
 <p><br></p>
 <div id="myTabContent" class="tab-content">
 <div id="PenroseTilings" class="tab-pane fade in active">
+<div class="column-left">
 <p><img src="penrose_in_out.gif" id="id" class="class" width="400" height="225" /> <img src="triangle%20bw%20angle.PNG" id="id" class="class" width="467" height="225" /><br />
 I translated code from <a href="http://preshing.com/20110831/penrose-tiling-explained">here</a> into R, then tried to make shapes and patterns that continue to intrigue after repeated viewings</p>
 </div>
+</div>
 <div class="tab-pane fade" id="VisualizingO-RingTheory">
+<div class="column-left">
 <p>When I first read about <a href="https://en.wikipedia.org/wiki/O-ring_theory_of_economic_development">O-ring theory</a>, I was impressed with the idea, but unfortunately, I wasn’t able to find any good graphical displays of the output from different groups of workers. The following illustrates when workers of a certain skill level would benefit from banding together, when they should maintain the current group size, and when they should break into smaller groups <sup><a href="#footnote-1" id="note-1" rel="footnote" <sup> 1 </sup> </a></p>
 <p><img src="projects_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /> As you can see, the highest skill workers are responsible for the largest deviations in output, so let’s zoom in on those workers</p>
 <p><img src="projects_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /> These workers seem to benefit from forming small groups, but they face diminishing - and then negative - returns to joining together after achieving a certain group size</p>
@@ -245,10 +248,14 @@ I translated code from <a href="http://preshing.com/20110831/penrose-tiling-expl
 </ol>
 <p>For a simple example, while the 99% workers can create output of ~37 value using a team of 100 people, the 89% workers shouldn’t be in teams greater than 9 people, and their output’s value tops out at ~3. <br /></p>
 <p>This only displays one side of the theory, focusing on what workers can produce, while ignoring worker distributions, how firms should operate in this environment (though the heatmap does assume perfect skill matching), and the broader implications of this model. Whether or not these illustrations makes the O-ring theory more believable, seeing these results should give you a better intuition about the model’s claims.</p>
+<p>
+ 
+</p>
+</div>
 <div class="footnotes">
 <hr />
 <ol>
-<li id="footnote-1" class="footnote" style="font-size:80%; padding-top:75px;">
+<li id="footnote-1" class="footnote" style="font-size:75%; padding-top:75px;">
 <p>
 This is a simplified version of the theory where Beta is assumed to always equal 1, and perfect skill matching is possible<a href="#note-1" class="footnote-return">↩</a>
 </p>
@@ -257,16 +264,22 @@ This is a simplified version of the theory where Beta is assumed to always equal
 </div>
 </div>
 <div id="SymmetryandScale" class="tab-pane fade">
+<div class="column-left">
 <p>I was bored at training early on in my working days, and the instructor was wearing a houndstooth sweater. Naturally, I started thinking about how to make identical shapes that tile the plane, indirectly inspired by Escher (and directly inspired by a sweater). I asked a friend of mine to create a <a href="http://dev.zachsilversmith.com/escher">program</a> where manipulating one side of a shape would also move the opposite side. This could be extended a lot further (curves, points, etc.) but even this simplified version could make some cool images</p>
 <p><img src="Unicorn.PNG" id="id" class="class" width="290" height="290" />  <img src="snaker.PNG" id="id" class="class" width="290" height="290" />  <img src="For%20Kevin.PNG" id="id" class="class" width="290" height="290" /></p>
 <p>I took one output from the program (the first image shown below), and played around with it in PowerPoint to see if combining and recombining the image at different scales would turn up anything good <br /> <br /></p>
 <p><img src="building%20block.jpg" alt="Building block" id="id" class="class" width="290" height="290" />  <img src="diamond.jpg" id="id" class="class" width="290" height="290" />  <img src="meta%20exes.jpg" id="id" class="class" width="290" height="290" /></p>
 </div>
+</div>
 <div id="TMIClockface" class="tab-pane fade">
-<p><img src="black%20and%20white.png" /><br />
-This is a pretty stupid idea. A clockface packed with too much information, including Hours, Military Hours, Minutes/Seconds (in retrospect, maybe I should’ve done both), Month, Degrees, Direction, and Percentage. To make everything more confusing, I used many colors, made some elements very transparent, and added swirls to mislead your eyes. Explaining this stupid idea made me like it more</p>
+<img src="black%20and%20white.png" /><br />
+
+<div class="column-left">
+<p>This is a pretty stupid idea. A clockface packed with too much information, including Hours, Military Hours, Minutes/Seconds (in retrospect, maybe I should’ve done both), Month, Degrees, Direction, and Percentage. To make everything more confusing, I used many colors, made some elements very transparent, and added swirls to mislead your eyes. Explaining this stupid idea made me like it more</p>
+</div>
 </div>
 <div id="SoccerStatistics" class="tab-pane fade">
+<div class="column-left">
 <p>As an undergraduate, I took an independent study course on soccer statistics with <a href="https://twitter.com/soccerquant">Christopher Anderson</a>. Some of this work made it into a few blog posts. Those blog posts are included below, with a shoutout to the wayback machine for proving magic is real <br /> <br /> 1) <a href="https://web.archive.org/web/20120325162151/http://www.soccerbythenumbers.com:80/2012/02/measurement-matters-validating-mls.html">Using Castrol Player Ratings To Predict Team Success in MLS</a><br />
 2) <a href="https://web.archive.org/web/20120318011645/http://www.soccerbythenumbers.com:80/2012/02/how-efficient-are-player-salaries-in.html">How Efficient Are Player Salaries in Major League Soccer?</a><br />
 3) <a href="https://web.archive.org/web/20110615103349/http://www.soccerbythenumbers.com:80/2011/06/goal-production-in-six-leagues-or-are.html">Goal Production In Six Leagues</a><br />
@@ -274,7 +287,11 @@ This is a pretty stupid idea. A clockface packed with too much information, incl
 5) <a href="https://web.archive.org/web/20110722121951/http://www.soccerbythenumbers.com:80/2011/07/too-much-football-is-there-connection.html">Is There A Connection Between Matches Played and Goals Per Game?</a><br />
 6) <a href="https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html">The Connection Between League Balance, Goals, and Talent</a></p>
 </div>
-</div>
+<p><div)
+
+
+
+</div></p>
 </div>
 </div>
 </div>

@@ -16,11 +16,14 @@
 
 <div id="myTabContent" class="tab-content">
 <div class="tab-pane fade in active" id="PenroseTilings">
+<div class="column-left">
 ![](penrose_in_out.gif){#id .class width=400 height=225px}   ![](triangle bw angle.PNG){#id .class width=467 height=225px}    
 I translated code from [here](http://preshing.com/20110831/penrose-tiling-explained) into R, then tried to make shapes and patterns that continue to intrigue after repeated viewings
 </div>  
+</div>  
 
 <div class="tab-pane fade" id="VisualizingO-RingTheory">
+<div class="column-left">
 When I first read about [O-ring theory](https://en.wikipedia.org/wiki/O-ring_theory_of_economic_development), I was impressed with the idea, but unfortunately, I wasn't able to find any good graphical displays of the output from different groups of workers. The following illustrates when workers of a certain skill level would benefit from banding together, when they should maintain the current group size, and when they should break into smaller groups <sup><a href="#footnote-1" id="note-1" rel="footnote" <sup> 1 </sup> </a> 
 
 
@@ -83,12 +86,18 @@ For a simple example, while the 99% workers can create output of ~37 value using
 
 This only displays one side of the theory, focusing on what workers can produce, while ignoring worker distributions, how firms should operate in this environment (though the heatmap does assume perfect skill matching), and the broader implications of this model. Whether or not these illustrations makes the O-ring theory more believable, seeing these results should give you a better intuition about the model's claims.
 
-<div class="footnotes"><hr /><ol><li id="footnote-1" class="footnote" style="font-size:80%; padding-top:75px;"><p>This is a simplified version of the theory where Beta is assumed to always equal 1, and perfect skill matching is possible<a href="#note-1" class="footnote-return">&#8617;</a></p></li><!--/#footnote-1.footnote-->
+<p>&nbsp;</p>
+
+</div>
+
+<div class="footnotes"><hr /><ol><li id="footnote-1" class="footnote" style="font-size:75%; padding-top:75px;"><p>This is a simplified version of the theory where Beta is assumed to always equal 1, and perfect skill matching is possible<a href="#note-1" class="footnote-return">&#8617;</a></p></li><!--/#footnote-1.footnote-->
                                 
 </div>
+
 </div>
 
 <div class="tab-pane fade" id="SymmetryandScale">
+<div class="column-left">
 I was bored at training early on in my working days, and the instructor was wearing a houndstooth sweater. Naturally, I started thinking about how to make identical shapes that tile the plane, indirectly inspired by Escher (and directly inspired by a sweater). I asked a friend of mine to create a [program](http://dev.zachsilversmith.com/escher) where manipulating one side of a shape would also move the opposite side. This could be extended a lot further (curves, points, etc.) but even this simplified version could make some cool images  
 
 ![](Unicorn.PNG){#id .class width=290 height=290px}\  ![](snaker.PNG){#id .class width=290 height=290px}\  ![](For Kevin.PNG){#id .class width=290 height=290px}
@@ -98,13 +107,17 @@ I took one output from the program (the first image shown below), and played aro
 
 ![Building block](building block.jpg){#id .class width=290 height=290px}\  ![](diamond.jpg){#id .class width=290 height=290px}\  ![](meta exes.jpg){#id .class width=290 height=290px}
 </div>
+</div>
   
 <div class="tab-pane fade" id="TMIClockface">
 ![](black and white.png)  
+<div class="column-left">
 This is a pretty stupid idea. A clockface packed with too much information, including Hours, Military Hours, Minutes/Seconds (in retrospect, maybe I should've done both), Month, Degrees, Direction, and Percentage. To make everything more confusing, I used many colors, made some elements very transparent, and added swirls to mislead your eyes. Explaining this stupid idea made me like it more
 </div>
-  
+</div>
+
 <div class="tab-pane fade" id="SoccerStatistics">
+<div class="column-left">
 As an undergraduate, I took an independent study course on soccer statistics with [Christopher Anderson](https://twitter.com/soccerquant). Some of this work made it into a few blog posts. Those blog posts are included below, with a shoutout to the wayback machine for proving magic is real <br /> <br /> 
 1) [Using Castrol Player Ratings To Predict Team Success in MLS](https://web.archive.org/web/20120325162151/http://www.soccerbythenumbers.com:80/2012/02/measurement-matters-validating-mls.html)  
 2) [How Efficient Are Player Salaries in Major League Soccer?](https://web.archive.org/web/20120318011645/http://www.soccerbythenumbers.com:80/2012/02/how-efficient-are-player-salaries-in.html)  
@@ -113,7 +126,7 @@ As an undergraduate, I took an independent study course on soccer statistics wit
 5) [Is There A Connection Between Matches Played and Goals Per Game?](https://web.archive.org/web/20110722121951/http://www.soccerbythenumbers.com:80/2011/07/too-much-football-is-there-connection.html)  
 6) [The Connection Between League Balance, Goals, and Talent](https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html)
 </div>
-
+<div)
 
 
 
