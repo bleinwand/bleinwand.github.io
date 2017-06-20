@@ -21,8 +21,9 @@ a:active {
 
 .column-left{
   float: right;
-  width: 97%;
+  width: 94%;
   text-align: left;
+  margin-right: 3%;
 }
 @media (min-width: 768px){
 html { font-size: 100%; -ms-text-size-adjust: none; -webkit-text-size-adjust: none; height:100%; padding:0px; }

@@ -1,9 +1,9 @@
 <div class="bl-container-inner1 clearfix">
-
+<div class="column-left">
 <H1>Projects</H1>
 
 ###Some stuff I've spent a little or a lot of time on  <br /> <br />
-
+</div>
 
 <ul class="nav nav-tabs">
   <li class="active"><a href="#PenroseTilings" data-toggle="tab">Penrose Tilings</a></li>
@@ -17,7 +17,9 @@
 <div id="myTabContent" class="tab-content">
 <div class="tab-pane fade in active" id="PenroseTilings">
 <div class="column-left">
-![](penrose_in_out.gif){#id .class width=400 height=225px}   ![](triangle bw angle.PNG){#id .class width=467 height=225px}    
+<center>
+![](triangle bw angle.PNG){#id .class width=560 height=270px} ![](penrose_in_out.gif){#id .class width=480 height=270px}    
+</center>
 I translated code from [here](http://preshing.com/20110831/penrose-tiling-explained) into R, then tried to make shapes and patterns that continue to intrigue after repeated viewings
 </div>  
 </div>  
@@ -100,12 +102,12 @@ This only displays one side of the theory, focusing on what workers can produce,
 <div class="column-left">
 I was bored at training early on in my working days, and the instructor was wearing a houndstooth sweater. Naturally, I started thinking about how to make identical shapes that tile the plane, indirectly inspired by Escher (and directly inspired by a sweater). I asked a friend of mine to create a [program](http://dev.zachsilversmith.com/escher) where manipulating one side of a shape would also move the opposite side. This could be extended a lot further (curves, points, etc.) but even this simplified version could make some cool images  
 
-![](Unicorn.PNG){#id .class width=290 height=290px}\  ![](snaker.PNG){#id .class width=290 height=290px}\  ![](For Kevin.PNG){#id .class width=290 height=290px}
+![](Unicorn.PNG){#id .class width=260 height=260px}\  ![](snaker.PNG){#id .class width=260 height=260px}\  ![](For Kevin.PNG){#id .class width=260 height=260px}
                 
 I took one output from the program (the first image shown below), and played around with it in PowerPoint to see if combining and recombining the image at different scales would turn up anything good <br /> <br /> 
 
 
-![Building block](building block.jpg){#id .class width=290 height=290px}\  ![](diamond.jpg){#id .class width=290 height=290px}\  ![](meta exes.jpg){#id .class width=290 height=290px}
+![Building block](building block.jpg){#id .class width=260 height=260px}\  ![](diamond.jpg){#id .class width=260 height=260px}\  ![](meta exes.jpg){#id .class width=260 height=260px}
 </div>
 </div>
   
@@ -118,7 +120,7 @@ This is a pretty stupid idea. A clockface packed with too much information, incl
 
 <div class="tab-pane fade" id="SoccerStatistics">
 <div class="column-left">
-As an undergraduate, I took an independent study course on soccer statistics with [Christopher Anderson](https://twitter.com/soccerquant). Some of this work made it into a few blog posts. Those blog posts are included below, with a shoutout to the wayback machine for proving magic is real <br /> <br /> 
+As an undergraduate, I took an independent study course on soccer statistics with [Christopher Anderson](https://twitter.com/soccerquant). Some of this work made it into a few blog posts. Those blog posts are included below, with a shoutout to the [Wayback Machine](https://archive.org/web) for proving magic is real <br /> <br /> 
 1) [Using Castrol Player Ratings To Predict Team Success in MLS](https://web.archive.org/web/20120325162151/http://www.soccerbythenumbers.com:80/2012/02/measurement-matters-validating-mls.html)  
 2) [How Efficient Are Player Salaries in Major League Soccer?](https://web.archive.org/web/20120318011645/http://www.soccerbythenumbers.com:80/2012/02/how-efficient-are-player-salaries-in.html)  
 3) [Goal Production In Six Leagues](https://web.archive.org/web/20110615103349/http://www.soccerbythenumbers.com:80/2011/06/goal-production-in-six-leagues-or-are.html)    
