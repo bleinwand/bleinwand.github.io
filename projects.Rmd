@@ -1,7 +1,8 @@
----
-title: "Projects"
----
-##Some stuff I've spent a little or a lot of time on  <br /> <br />
+<div class="bl-container-inner1 clearfix">
+
+<H1>Projects</H1>
+
+###Some stuff I've spent a little or a lot of time on  <br /> <br />
 
 
 <ul class="nav nav-tabs">
@@ -120,5 +121,7 @@ As an undergraduate, I took an independent study course on soccer statistics wit
 
 
 
-  
+</div>
+</div>
+
   
