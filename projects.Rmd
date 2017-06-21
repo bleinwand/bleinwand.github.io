@@ -10,6 +10,7 @@
   <li><a href="#SymmetryandScale" data-toggle="tab">Symmetry and Scale</a></li>
   <li><a href="#TMIClockface" data-toggle="tab">TMI Clockface</a></li>
   <li><a href="#SoccerStatistics" data-toggle="tab">Soccer Statistics</a></li>
+  <li><a href="index.html">Website</a></li>
 </ul>
 <br>
 
@@ -17,9 +18,12 @@
 <div class="tab-pane fade in active" id="PenroseTilings">
 <div class="column-left">
 <center>
-![](triangle bw angle.PNG){#id .class width=560 height=270px} ![](penrose_in_out.gif){#id .class width=480 height=270px}    
+![](penrose_in_out.gif){#id .class width=480 height=270px}    
 </center>
+<br/> 
 I translated code from [here](http://preshing.com/20110831/penrose-tiling-explained) into R, then tried to make shapes and patterns that continue to intrigue after repeated viewings
+<br/> 
+<center> ![](triangle bw angle.PNG){#id .class width=560 height=270px}  </center>
 </div>  
 </div>  
 
@@ -55,7 +59,7 @@ As an undergraduate, I took an independent study course on soccer statistics wit
 5) [Is There A Connection Between Matches Played and Goals Per Game?](https://web.archive.org/web/20110722121951/http://www.soccerbythenumbers.com:80/2011/07/too-much-football-is-there-connection.html)  
 6) [The Connection Between League Balance, Goals, and Talent](https://web.archive.org/web/20110917233701/http://www.soccerbythenumbers.com:80/2011/08/connection-between-league-balance-goals.html)
 </div>
-<div)
+
 
 
 

@@ -9,8 +9,17 @@ navbar:
       href: research.html  
     - text: "Projects"     
       href: projects.html  
-   
-      
+      #menu:
+       # - text: "Penrose Tilings"
+        #  href: projects.html#PenroseTilings
+        #- text: "Symmetry and Scale"
+         # href: projects.html#SymmetryandScale
+        #- text: "TMI Clockface"
+         # href: projects.html#TMIClockface
+        #- text: "Soccer Statistics"
+         # href: projects.html#SoccerStatistics
+        #- text: "Website"
+          
 output:
   html_document:
     theme: sandstone
